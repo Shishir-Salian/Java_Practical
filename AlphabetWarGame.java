@@ -1,9 +1,5 @@
 public class AlphabetWar
 {
-    AlphabetWar()
-    {
-        
-    }
     AlphabetWar(int Health)
     {
         Health1 = Health;
