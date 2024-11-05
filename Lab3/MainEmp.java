@@ -135,19 +135,19 @@ public class MainEmp
     public static void main(String[] args)
     {
         // Create an HourlyEmployee instance and display its details
-        HourlyEmployee obj1 = new HourlyEmployee(1,"Daniel Sanctis","CEO",50,5);
+        HourlyEmployee obj1 = new HourlyEmployee(1,"Shishir Salian","CEO",50,5);
         obj1.weekearning();
         obj1.display();
         totalPayroll += obj1.annualEarnings();
 
         // Create a SalariedEmployee instance and display its details        
-        SalariedEmployee obj2 = new SalariedEmployee(2,"Mervin Sanctis","CTO",50000);
+        SalariedEmployee obj2 = new SalariedEmployee(2,"Daniel Sanctis","CTO",50000);
         obj2.weekearning();
         obj2.display();
         totalPayroll += obj2.annualEarnings();
 
         // Create an ExecutiveEmployee instance and display its details
-        ExecutiveEmployee obj3 = new ExecutiveEmployee(3, "Gilbert Sanctis", "CEO", 100000, 20);
+        ExecutiveEmployee obj3 = new ExecutiveEmployee(3, "Satwik Singh", "CEO", 100000, 20);
         obj3.display();
         totalPayroll += obj3.annualEarnings();
 
