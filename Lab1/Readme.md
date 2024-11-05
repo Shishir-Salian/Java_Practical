@@ -5,6 +5,21 @@ The program takes the user input for credit card no. with minimum of 8 digits an
 
 
 **Alphabet War Game**
-This program is about a playful fight between letters, split into two teams—the left-side letters and the right-side letters in which each letter will be assigned with the strengths for both sides. First of all it will ask the user if they want to play with default strength or if the want to assign the new strengths. Then it will ask the user if they want to play in single turn or in 2 turns i.e left side and right side turn. After that it will ask users to give the input and based on input it calculate the strengths and it will declare if the left side wins or right side wins. After this program will ask the user if the want to play another round.
+his Java program simulates a game called "Alphabet War," where two players take turns using characters that represent different attack strengths. Each player has a set of letters:
+
+    Player 1's letters: 'w', 'p', 'b', 's' (with strengths 4, 3, 2, and 1 respectively).
+    Player 2's letters: 'm', 'q', 'd', 'z' (also with strengths 4, 3, 2, and 1 respectively).
+
+Key Components:
+
+    Constructor: Initializes both players' health.
+    playTurn Method: Handles each turn's attack, checking whose turn it is and applying damage to the other player.
+    isValidMove Method: Ensures only allowed characters are used, skipping any invalid moves without affecting health.
+    startGame Method: Takes an array of moves, applying each move until a player’s health reaches zero.
+
+Game Flow:
+
+Players alternate moves, with each valid character reducing the opponent's health based on its strength. The game announces the winner when one player's health reaches zero.
+
 
 ![image](https://github.com/user-attachments/assets/2088ee1e-3bd4-433a-93a3-cec2953f9892)
