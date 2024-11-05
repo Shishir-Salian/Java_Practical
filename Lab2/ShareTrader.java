@@ -38,10 +38,10 @@ public class Main
 	public static void main(String[] args) {
 	    int price[] = {2, 30, 15, 10, 8, 25, 80};
 	    Main.best_price(price);
-		System.out.println(maxprofit);
-		System.out.println(buy1);
-		System.out.println(sell1);
-		System.out.println(buy2);
-		System.out.println(sell2);
+		System.out.println("Max Profit: "+maxprofit);
+		System.out.println("First Purchase: "+buy1);
+		System.out.println("First Sale: "+sell1);
+		System.out.println("Second Purchase: "+buy2);
+		System.out.println("Second Sale: "+sell2);
 	}
 }
