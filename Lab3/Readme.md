@@ -7,3 +7,4 @@ A Java program that calculates and displays weekly, annual earnings, and bonuses
     ExecutiveEmployee: Salaried with an additional annual bonus.
 
 Displays each employee’s details and calculates the total payroll. Demonstrates inheritance, polymorphism, and method overriding in Java.
+![image](https://github.com/user-attachments/assets/3f81a771-8f7a-45f1-8ebe-107ddaff3fb8)
