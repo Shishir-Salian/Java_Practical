@@ -18,37 +18,37 @@ public class CreditCardChecker {
             {
                 new_ccNumber_rev = new_ccNumber.charAt(i) + new_ccNumber_rev;
             }
-            System.out.println(new_ccNumber_rev);
+            //System.out.println(new_ccNumber_rev);
             for (int i = 0; i < new_ccNumber_rev.length(); i++)
             {
                 if((i + 1) % 2 != 0)
                 {
                     int digit = 0;
                     digit = Character.getNumericValue(new_ccNumber_rev.charAt(i));
-                    System.out.println(digit);
+                    //System.out.println(digit);
                     digit *= 2;
-                    System.out.println(digit);
+                    //System.out.println(digit);
                     if (digit / 10 != 0)
                     {
                         digit = (digit % 10) + (digit / 10);
-                        System.out.println(digit);
+                        //System.out.println(digit);
                     }
                     char char_digit = (char) (digit + '0');
-                    System.out.println(char_digit);
+                    //System.out.println(char_digit);
                     new_ccNumber_rev = new_ccNumber_rev.substring(0, i) + char_digit + new_ccNumber_rev.substring(i + 1);
-                    System.out.println(new_ccNumber_rev);
+                    //System.out.println(new_ccNumber_rev);
                 }
             }
-            System.out.println(new_ccNumber_rev);
+            //System.out.println(new_ccNumber_rev);
             int sumofdig = 0;
             for (int i = 0; i < new_ccNumber_rev.length(); i++)
             {
                 sumofdig = sumofdig + Character.getNumericValue(new_ccNumber_rev.charAt(i));
             }
-            System.out.println(sumofdig);
+            //System.out.println(sumofdig);
             int lastDigitOfSum = 10 - (sumofdig % 10);
-            System.out.println(lastDigitOfSum);
-            System.out.println(lastDigit);
+            //System.out.println(lastDigitOfSum);
+            //System.out.println(lastDigit);
             if(lastDigitOfSum == lastDigit) {
                 System.out.println("Credit Card Number is valid.");
             }
